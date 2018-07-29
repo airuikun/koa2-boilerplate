@@ -25,8 +25,8 @@
     <script src="assets/vendor.bundle.js"></script>
     <script src="assets/main.js"></script>
     {% else %}
-    <script src="http://localhost:9000/assets/vendor.bundle.js"></script>
-    <script src="http://localhost:9000/assets/main.js"></script>
+    <script src="http://localhost:5000/assets/vendor.bundle.js"></script>
+    <script src="http://localhost:5000/assets/main.js"></script>
     {% endif %}
   </body>
 </html>

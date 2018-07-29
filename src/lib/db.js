@@ -7,16 +7,16 @@ const db = {}
 const mysqlPool  = mysql.createPool({
   connectionLimit : 10,
   host            : 'localhost',
-  user            : 'test',
-  password        : 'test',
+  user            : 'root',
+  password        : 'tony19890820',
   database        : 'test'
 });
 
 db.pool = mysqlPool;
 
-db.query = async function(sql, value) {
+db.query = async function() {
     return new Promise((resolve, reject) => {
-        mysqlPool.query(sql, value, function(err, results, fields) {
+        mysqlPool.query('select * from test_table',function(err, results, fields) {
             if(err) {
                 reject(Error(err))
             } else {
