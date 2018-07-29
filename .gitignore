@@ -153,3 +153,7 @@ fabric.properties
 vendor.bundle.js
 
 mochawesome-reports
+
+
+
+.DS_Store
