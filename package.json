@@ -4,7 +4,7 @@
   "description": "",
   "main": "start.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --hot --host 0.0.0.0 --port 9000 --content-base ./server/public --config ./webpack.config.js & nodemon start.js",
+    "dev": "webpack-dev-server --progress --colors --inline --hot --host 0.0.0.0 --port 9000 --content-base ./server/public --config ./webpack.config.js & nodemon start.js",
     "node": "nodemon start.js",
     "build": "NODE_ENV=production webpack -p --config ./webpack.prod.config.js",
     "test": "mocha --compilers js:babel-core/register --require babel-polyfill",

@@ -28,7 +28,7 @@ class LoginContainer extends React.Component {
                     <div className="news-caption">
                         <h4 className="caption-title"><i className="fa fa-diamond text-success"></i> Announcing the Color Admin app</h4>
                         <p>
-                            Download the Color Admin app for iPhone®, iPad®, and Android™. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            111Download the Color Admin app for iPhone®, iPad®, and Android™. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                     </div>
                 </div>

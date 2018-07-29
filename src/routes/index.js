@@ -15,7 +15,7 @@ const router = new Router();
 
 router.get('/db', async (ctx, next) => {
     var data = await db.query();
-    ctx.body = {aa: data};
+    ctx.body = {bb: data};
 })
 
 router.get('/', async (ctx, next) => {
